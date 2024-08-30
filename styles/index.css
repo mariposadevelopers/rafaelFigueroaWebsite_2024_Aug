@@ -110,6 +110,11 @@ header {
 
 }
 
+
+.nav-link:hover{
+    color: rgba(255, 255, 255, 0.555);  
+}
+
 /*
 
     Presentation section
@@ -282,7 +287,14 @@ header {
 }
 
 .form-wrapper {
+    width: 100%;
     text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.form-wrapper form{
+    width: 100%;
 }
 
 .form-wrapper input,
@@ -331,6 +343,22 @@ footer h4 {
 }
 
 @media (min-width: 900px) {
+    .navbar-brand {
+        font-size: 200%;
+        margin-left: 3%;
+        margin-right: 3%;
+       
+    }
+
+    .navbar-brand h1{
+        font-family: 'ClashDisplay-Semibold';
+    }
+
+
+    .nav-link {
+        font-family: 'ClashDisplay-Light';
+        font-size: 150%;
+    }
 
     /*
         Presentation
@@ -414,8 +442,67 @@ footer h4 {
     }
 }
 
-@media (min-width:1200px){
+@media (min-width:1400px){
+
+    .navbar-brand {
+        font-size: 200%;
+        margin-left: 3%;
+        margin-right: 3%;
+       
+    }
+
+    .navbar-brand h1{
+        font-family: 'ClashDisplay-Semibold';
+    }
 
 
+    .nav-link {
+        font-family: 'ClashDisplay-Light';
+        font-size: 150%;
+    }
+
+    .presentation{
+        margin-top: 5%; 
+    }    
     
+    .presentation-info{
+        padding-top: 0%;
+        padding-bottom: 0%;
+    }   
+
+    .info-img img{
+        margin-top: 0;
+    }
+
+    .experience{
+        margin-top: 5%;
+    }
+
+    .experience-list{
+        padding: 3%;
+    }
+
+    .experience-list ul{
+        list-style: none;
+    }
+    .publications{
+        margin-top: 5%;
+        
+    }
+
+    .publications-title{
+        padding-bottom: 3%;
+    }
+
+    .contact-information{
+        margin: 5%;
+    }   
+
+    .form-wrapper form{
+        width: 50%;
+    }
+
+    footer{
+        height: 50vh;
+    }
 }

@@ -8,7 +8,53 @@
 /*
     fonts
 */
+@font-face {
+    font-family: 'ClashDisplay-Bold';
+    src: url('/fonts/clash-display/ClashDisplay-Bold.otf') format('truetype');
+    /* O el formato de tu archivo */
+    font-weight: normal;
+    font-style: normal;
+}
 
+@font-face {
+    font-family: 'ClashDisplay-Extralight';
+    src: url('/fonts/clash-display/ClashDisplay-Extralight.otf') format('truetype');
+    /* O el formato de tu archivo */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ClashDisplay-Light';
+    src: url('/fonts/clash-display/ClashDisplay-Light.otf') format('truetype');
+    /* O el formato de tu archivo */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ClashDisplay-Medium';
+    src: url('/fonts/clash-display/ClashDisplay-Medium.otf') format('truetype');
+    /* O el formato de tu archivo */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ClashDisplay-Regular';
+    src: url('/fonts/clash-display/ClashDisplay-Regular.otf') format('truetype');
+    /* O el formato de tu archivo */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ClashDisplay-Semibold';
+    src: url('/fonts/clash-display/ClashDisplay-Semibold.otf') format('truetype');
+    /* O el formato de tu archivo */
+    font-weight: normal;
+    font-style: normal;
+}
 
 /*
     header

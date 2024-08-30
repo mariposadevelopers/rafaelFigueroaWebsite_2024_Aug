@@ -134,7 +134,7 @@ header {
 
 .presentation-info {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 0.2fr; 
     justify-content: center;
     align-items: center;
     padding: 10%;
@@ -153,7 +153,7 @@ header {
 }
 
 .info-img img {
-    margin-left: 10vw;
+    margin-top: 10%;
     width: 150px;
     height: 150px;
     border-radius: 80%;
@@ -377,6 +377,7 @@ footer h4 {
 
 
     .publication-element{
+      
         font-size: 150%;
     }
 
@@ -413,3 +414,8 @@ footer h4 {
     }
 }
 
+@media (min-width:1200px){
+
+
+    
+}

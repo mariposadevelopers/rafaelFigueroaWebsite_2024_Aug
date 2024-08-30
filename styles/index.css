@@ -1,74 +1,471 @@
-body{
+
+* {
     padding: 0;
     margin: 0;
 }
+
+
 /*
     fonts
 */
 
-@font-face {
-    font-family: 'ClashDisplay-Bold';
-    src: url('/fonts/clash-display/ClashDisplay-Bold.otf') format('truetype'); /* O el formato de tu archivo */
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'ClashDisplay-Extralight';
-    src: url('/fonts/clash-display/ClashDisplay-Extralight.otf') format('truetype'); /* O el formato de tu archivo */
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'ClashDisplay-Light';
-    src: url('/fonts/clash-display/ClashDisplay-Light.otf') format('truetype'); /* O el formato de tu archivo */
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'ClashDisplay-Medium';
-    src: url('/fonts/clash-display/ClashDisplay-Medium.otf') format('truetype'); /* O el formato de tu archivo */
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'ClashDisplay-Regular';
-    src: url('/fonts/clash-display/ClashDisplay-Regular.otf') format('truetype'); /* O el formato de tu archivo */
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'ClashDisplay-Semibold';
-    src: url('/fonts/clash-display/ClashDisplay-Semibold.otf') format('truetype'); /* O el formato de tu archivo */
-    font-weight: normal;
-    font-style: normal;
-}
 
 /*
     header
 */
-.container-fluid{
-   
-    background-color: black;
 
-}
 
-header{
+.container-fluid {
+
 
     background-color: black;
 
 }
-.navbar-brand h1{
-    color: white;   
+
+
+
+.navbar-brand h1 {
+    color: white;
+
     font-family: 'ClashDisplay-Bold';
     font-size: 100%;
     margin-top: 1vh;
 }
-.nav-link{
+
+
+.nav-link {
     color: white;
     font-family: 'ClashDisplay-Bold';
 }
 
+
+.navbar {
+    height: 20vh;
+}
+
 .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+
+}
+
+header {
+    background-color: black;
+}
+
+/*
+    Banner information
+*/
+
+.banner-information {
+    width: 100%;
+    height: 50vh;
+    background-color: #232323;
+    display: flex;
+    align-items: center;
+}
+
+.banner-information h2 {
+    font-family: 'ClashDisplay-Bold';
+    font-size: 250%;
+    padding: 5%;
+    color: white;
+
+}
+
+
+.nav-link:hover{
+    color: rgba(255, 255, 255, 0.555);  
+}
+
+/*
+
+    Presentation section
+*/
+
+.presentation {
+    margin-top: 10%;
+}
+
+.presentation-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.presentation-title h3 {
+    font-family: 'ClashDisplay-Bold';
+    color: black;
+    font-size: 200%;
+}
+
+.presentation-info {
+    display: grid;
+    grid-template-rows: 1fr 0.2fr; 
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+}
+
+.info-text {
+    font-family: 'ClashDisplay-Regular';
+    color: black;
+    font-size: 125%;
+    text-align: center;
+}
+
+.info-img {
+    display: flex;
+    justify-content: center;
+}
+
+.info-img img {
+    margin-top: 10%;
+    width: 150px;
+    height: 150px;
+    border-radius: 80%;
+}
+
+
+/*
+
+    Experience section
+
+
+*/
+
+.experience {
+    margin-top: 5%;
+}
+
+.experience-title {
+    display: flex;
+    justify-content: center;
+}
+
+.experience-title h3 {
+    font-family: 'ClashDisplay-Bold';
+    color: black;
+    font-size: 200%;
+}
+
+.experience-list {
+    display: flex;
+    text-align: center;
+    padding: 10%;
+    display: grid;
+}
+
+.experience-list ul {
+    font-family: 'ClashDisplay-Regular';
+    font-size: 125%;
+    color: black;
+    text-align: center;
+}
+
+/*
+
+    Publications
+*/
+.publications {
+    display: grid;
+    justify-content: center;
+
+}
+
+.publications-title h3 {
+    text-align: center;
+    font-family: 'ClashDisplay-Bold';
+    font-size: 200%;
+    color: black;
+}
+
+.publications-list ul {
+    text-decoration: none;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.publication-element {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.publication-name h3 {
+    font-family: 'ClashDisplay-Bold';
+    font-size: 200%;
+    color: black;
+}
+
+.link-icon-wrapper i {
+    color: black;
+    font-size: 200%;
+}
+
+
+/*
+    Contact information
+*/
+.contact-information {
+
+    margin-top: 10%;
+    margin-bottom: 15%;
+}
+
+.contact-info-title {
+    font-family: 'ClashDisplay-Bold';
+    text-align: center;
+    color: black;
+    padding: 5%;
+}
+
+.contact-info-title h3 {
+    font-size: 200%;
+}
+
+.contact-info-content {
+
+    padding: 5%;
+
+    text-align: center;
+    font-family: 'ClashDisplay-Regular';
+}
+
+/*
+    
+    Contact form
+
+*/
+
+.form-title h3 {
+    font-family: 'ClashDisplay-Bold';
+    font-size: 200%;
+    color: black;
+    text-align: center;
+}
+
+.form-wrapper {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.form-wrapper form{
+    width: 100%;
+}
+
+.form-wrapper input,
+.form-wrapper textarea {
+    width: 80%;
+    margin: 5%;
+    height: 4vh;
+    border: 0.5px black solid;
+    font-family: 'ClashDisplay-Semibold';
+
+}
+
+.form-wrapper textarea {
+    height: 15vh;
+}
+
+.submit-input {
+    background-color: black;
+    color: white;
+    border-radius: 40vw;
+}
+
+/*
+
+    Footer
+*/
+
+
+footer {
+    background-color: black;
+    height: 25vh;
+    width: 100%;
+    display: grid;
+
+}
+
+.developer-info {
+    padding: 10%;
+}
+
+footer h4 {
+    color: white;
+    font-family: 'ClashDisplay-Semibold';
+    font-size: 110%;
+
+}
+
+@media (min-width: 900px) {
+    .navbar-brand {
+        font-size: 200%;
+        margin-left: 3%;
+        margin-right: 3%;
+       
+    }
+
+    .navbar-brand h1{
+        font-family: 'ClashDisplay-Semibold';
+    }
+
+
+    .nav-link {
+        font-family: 'ClashDisplay-Light';
+        font-size: 150%;
+    }
+
+    /*
+        Presentation
+    
+    */
+    .presentation-title h3 {
+        font-size: 325%;
+    }
+
+
+    .info-text p {
+        font-size: 150%;
+    }
+
+    .info-img img {
+        width: 200px;
+        height: 200px;
+    }
+
+    /*
+        Experience
+    
+    */
+
+    .experience-title h3 {
+        font-size: 325%;
+    }
+
+    .experience-list ul li {
+        font-size: 150%;
+    }
+
+
+    /*
+        Experience
+    
+    */
+
+    .publications-title h3{
+        font-size: 325%;
+    }
+
+
+
+
+    .publication-element{
+      
+        font-size: 150%;
+    }
+
+
+    /*
+        Contact information
+    */
+
+
+    .contact-info-title{
+        font-size: 175%;
+    }
+
+
+    .contact-info-content div h4{
+        font-size: 175%;  
+    }
+    
+
+    .form-title{
+        font-size: 175%;   
+    }
+
+
+
+    .form-wrapper form input{
+        height: 8vh;
+    }
+
+
+    footer{
+
+        height: 30vh;
+    }
+}
+
+@media (min-width:1400px){
+
+    .navbar-brand {
+        font-size: 200%;
+        margin-left: 3%;
+        margin-right: 3%;
+       
+    }
+
+    .navbar-brand h1{
+        font-family: 'ClashDisplay-Semibold';
+    }
+
+
+    .nav-link {
+        font-family: 'ClashDisplay-Light';
+        font-size: 150%;
+    }
+
+    .presentation{
+        margin-top: 5%; 
+    }    
+    
+    .presentation-info{
+        padding-top: 0%;
+        padding-bottom: 0%;
+    }   
+
+    .info-img img{
+        margin-top: 0;
+    }
+
+    .experience{
+        margin-top: 5%;
+    }
+
+    .experience-list{
+        padding: 3%;
+    }
+
+    .experience-list ul{
+        list-style: none;
+    }
+    .publications{
+        margin-top: 5%;
+        
+    }
+
+    .publications-title{
+        padding-bottom: 3%;
+    }
+
+    .contact-information{
+        margin: 5%;
+    }   
+
+    .form-wrapper form{
+        width: 50%;
+    }
+
+    footer{
+        height: 50vh;
+    }
 
 }

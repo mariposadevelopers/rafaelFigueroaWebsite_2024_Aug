@@ -115,6 +115,7 @@ header{
     width: 90%;
     margin-left: 5%;
     height: fit-content;
+    padding-bottom: 5%;
 }
 .interest h1{
     font-family: 'ClashDisplay-Bold';
@@ -175,7 +176,24 @@ h2{
 
     
 }
+footer {
+    background-color: black;
+    height: 25vh;
+    width: 100%;
+    display: grid;
 
+}
+
+.developer-info {
+    padding: 10%;
+}
+
+footer h4 {
+    color: white;
+    font-family: 'ClashDisplay-Semibold';
+    font-size: 110%;
+
+}
 @media(min-width:550px){
     .item-about img{
      max-width: 30%;
@@ -186,6 +204,9 @@ h2{
         font-size: 3em;
     }
 
+    footer{
+        height: 50vh;
+    }
 }
 
 @media(min-width: 750px){
@@ -338,4 +359,5 @@ h2{
         font-size: 2.5em;
       
     }
+
 }

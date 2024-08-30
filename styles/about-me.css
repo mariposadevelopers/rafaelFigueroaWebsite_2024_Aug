@@ -1,0 +1,341 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+/*
+    fonts
+*/
+
+@font-face {
+    font-family: 'ClashDisplay-Bold';
+    src: url('/fonts/clash-display/ClashDisplay-Bold.otf') format('truetype'); /* O el formato de tu archivo */
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ClashDisplay-Extralight';
+    src: url('/fonts/clash-display/ClashDisplay-Extralight.otf') format('truetype'); /* O el formato de tu archivo */
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ClashDisplay-Light';
+    src: url('/fonts/clash-display/ClashDisplay-Light.otf') format('truetype'); /* O el formato de tu archivo */
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ClashDisplay-Medium';
+    src: url('/fonts/clash-display/ClashDisplay-Medium.otf') format('truetype'); /* O el formato de tu archivo */
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ClashDisplay-Regular';
+    src: url('/fonts/clash-display/ClashDisplay-Regular.otf') format('truetype'); /* O el formato de tu archivo */
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ClashDisplay-Semibold';
+    src: url('/fonts/clash-display/ClashDisplay-Semibold.otf') format('truetype'); /* O el formato de tu archivo */
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*
+    header
+*/
+.container-fluid{
+   
+    background-color: black;
+
+}
+
+header{
+
+    background-color: black;
+
+}
+.navbar-brand h1{
+    color: white;   
+    font-family: 'ClashDisplay-Bold';
+    font-size: 100%;
+    margin-top: 1vh;
+}
+.nav-link{
+    color: white;
+    font-family: 'ClashDisplay-Bold';
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+
+}
+
+/* Main section of the page */
+
+
+.about-me{
+    width: 90%;
+    margin-left: 5%;
+    height: fit-content;
+}
+
+.about-me h1{
+    font-family: 'ClashDisplay-Bold';
+    src: url('/fonts/clash-display/ClashDisplay-Bold.otf') format('truetype'); /* O el formato de tu archivo */
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    font-size: 2.5em;
+}
+
+.about-me img{
+    padding-top: 1%;
+    padding-bottom: 5%;
+    width: 50%;
+    border-radius: 80px;
+    margin-left: 25%;
+
+}
+.about-me p{
+    padding-top: 5%;
+    font-family: 'ClashDisplay-Regular';
+    src: url('/fonts/clash-display/ClashDisplay-Regular.otf') format('truetype'); /* O el formato de tu archivo */
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1em;
+    text-align: center;
+}
+
+.interest{
+    width: 90%;
+    margin-left: 5%;
+    height: fit-content;
+}
+.interest h1{
+    font-family: 'ClashDisplay-Bold';
+    src: url('/fonts/clash-display/ClashDisplay-Bold.otf') format('truetype'); /* O el formato de tu archivo */
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    font-size: 2.5em; 
+}
+
+.interest p{
+    font-family: 'ClashDisplay-Regular';
+    src: url('/fonts/clash-display/ClashDisplay-Regular.otf') format('truetype'); /* O el formato de tu archivo */
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1em;
+    text-align: center;
+    
+}
+
+h2{
+    font-family: 'ClashDisplay-Bold';
+    src: url('/fonts/clash-display/ClashDisplay-Bold.otf') format('truetype'); /* O el formato de tu archivo */
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    font-size: 2em; 
+    padding-top: 5%;
+}
+
+.container{
+    display: flex;
+}
+.item{
+    padding-bottom: 5%;
+}
+
+
+.item-left{
+    width: 50%;
+}
+
+.item-left p{
+    padding-top: 10%;
+    padding-right: 5%;
+}
+
+
+.item-right{
+    width: 50%;
+}
+
+.item-right img{
+    width: 100%;
+    border-radius: 40px;
+
+    
+}
+
+@media(min-width:550px){
+    .item-about img{
+     max-width: 30%;
+     margin-left: 35%;
+    }
+    .about-me h1{
+        
+        font-size: 3em;
+    }
+
+}
+
+@media(min-width: 750px){
+    .item-about p{
+        font-size: 1.3em;
+        
+    }
+    .interest p{
+        font-size: 1.3em;
+        
+    }
+}
+@media(min-width: 992px){
+   
+    .about-me{
+        width: 100%;
+        margin-left: 0;
+        height: fit-content;
+    }
+
+    .about-me h1{
+        font-family: 'ClashDisplay-Bold';
+        src: url('/fonts/clash-display/ClashDisplay-Bold.otf') format('truetype'); /* O el formato de tu archivo */
+        font-weight: normal;
+        font-style: normal;
+        text-align: center;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        font-size: 4em;
+    }
+
+    .item-about{
+        width: 90%;
+        
+    }
+    .item-about img{
+        width: 30%;
+        margin-left: 40%;
+    
+    }
+    .item-about p{
+        
+        margin-left: 10%;
+        font-size: 2em;
+    
+    }
+
+    .interest h1{
+  
+        font-size: 3.5em; 
+    }
+    
+    .interest h2{
+        font-size: 3em; 
+      
+    }
+    .interest p{
+    
+        font-size: 2em;
+      
+    }
+}
+
+@media(min-width: 1200px){
+   
+    .about-me{
+        width: 100%;
+        margin-left: 0;
+        height: fit-content;
+    }
+
+    .about-me h1{
+
+        font-size: 4.5em;
+    }
+
+    .item-about{
+        width: 90%;
+        
+    }
+    .item-about img{
+        width: 25%;
+        margin-left: 43%;
+    
+    }
+    .item-about p{
+        
+        margin-left: 10%;
+        font-size: 2.5em;
+    
+    }
+
+    .interest h1{
+  
+        font-size: 4em; 
+    }
+    
+    .interest h2{
+        font-size: 3.5em; 
+      
+    }
+    .interest p{
+    
+        font-size: 2.5em;
+      
+    }
+}
+
+
+
+@media(min-width: 1366px){
+   
+    .about-me img{
+        padding-bottom: 0;
+    }
+
+    .about-me h1{
+        padding-bottom: 0;
+        font-size: 4.5em;
+    }
+
+    .item-about{
+        padding-top: 0;
+        width: 90%;
+        
+    }
+    .item-about img{
+        width: 20%;
+        margin-left: 45%;
+    
+    }
+    .item-about p{
+        
+        margin-left: 10%;
+        font-size: 2.5em;
+    
+    }
+
+    .interest h1{
+  
+        font-size: 4em; 
+    }
+    
+    .interest h2{
+        font-size: 3.5em; 
+      
+    }
+    .interest p{
+    
+        font-size: 2.5em;
+      
+    }
+}

@@ -46,31 +46,46 @@ body{
 /*
     header
 */
-.container-fluid{
-   
-    background-color: black;
 
-}
 
-header{
+.container-fluid {
+
 
     background-color: black;
 
 }
-.navbar-brand h1{
-    color: white;   
+
+
+
+.navbar-brand h1 {
+    color: white;
+
     font-family: 'ClashDisplay-Bold';
     font-size: 100%;
     margin-top: 1vh;
 }
-.nav-link{
+
+
+.nav-link {
     color: white;
     font-family: 'ClashDisplay-Bold';
+}
+
+
+.navbar {
+    height: 20vh;
 }
 
 .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 
+}
+
+header {
+    background-color: black;
+}
+.nav-link:hover{
+    color: rgba(255, 255, 255, 0.555);  
 }
 
 /* Main section of the page */
@@ -220,7 +235,23 @@ footer h4 {
     }
 }
 @media(min-width: 992px){
-   
+    .navbar-brand {
+        font-size: 200%;
+        margin-left: 3%;
+        margin-right: 3%;
+       
+    }
+
+    .navbar-brand h1{
+        font-family: 'ClashDisplay-Semibold';
+    }
+
+
+    .nav-link {
+        font-family: 'ClashDisplay-Light';
+        font-size: 150%;
+    }
+
     .about-me{
         width: 100%;
         margin-left: 0;
@@ -271,6 +302,23 @@ footer h4 {
 }
 
 @media(min-width: 1200px){
+
+    .navbar-brand {
+        font-size: 200%;
+        margin-left: 3%;
+        margin-right: 3%;
+       
+    }
+
+    .navbar-brand h1{
+        font-family: 'ClashDisplay-Semibold';
+    }
+
+
+    .nav-link {
+        font-family: 'ClashDisplay-Light';
+        font-size: 150%;
+    }
    
     .about-me{
         width: 100%;

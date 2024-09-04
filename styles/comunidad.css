@@ -84,7 +84,9 @@
     font-family: 'ClashDisplay-Bold';
 }
 
-
+.nav-link:hover{
+    color: rgba(255, 255, 255, 0.555);  
+}
 .navbar {
     height: 25vh;
 }
@@ -187,4 +189,124 @@ header {
     margin-top: 2%;
     margin-left: 3%;
     font-family: 'ClashDisplay-Semibold';
+}
+
+
+/*
+
+    Footer
+
+
+*/
+
+
+footer {
+    margin-top: 20%;
+    background-color: black;
+    height: 25vh;
+    width: 100%;
+    display: grid;
+
+}
+
+.developer-info {
+    padding: 10%;
+}
+
+footer h4 {
+    color: white;
+    font-family: 'ClashDisplay-Semibold';
+    font-size: 110%;
+
+}
+
+
+@media (min-width: 900px){
+
+    /*
+        navbar
+     
+    */
+
+    .navbar-brand {
+        font-size: 100%;
+        margin-left: 3%;
+        margin-right: 3%;
+       
+    }
+
+    .navbar-brand h1{
+        font-family: 'ClashDisplay-Semibold';
+    }
+
+
+    .nav-link {
+        font-family: 'ClashDisplay-Light';
+        font-size: 150%;
+    }
+
+
+    .channel-link{
+        width: 60%;
+
+        text-align: center;
+        margin-left: 5%;
+    }
+}
+
+@media (min-width: 1200px){
+
+
+    .navbar-brand {
+        font-size: 100%;
+        margin-left: 3%;
+        margin-right: 3%;
+       
+    }
+
+    .navbar-brand h1{
+        font-family: 'ClashDisplay-Semibold';
+    }
+
+
+    .nav-link {
+        font-family: 'ClashDisplay-Light';
+        font-size: 150%;
+    }
+
+
+    .channel-link{
+        width: 40%;
+        text-align: center;
+        margin-left: 5%;
+    }
+
+    footer{
+        height: 50vh;
+    }
+
+
+    .community-title{
+        font-size: 150%;   
+    }
+
+    .community-text{
+        margin-top: 5%;
+        font-size: 125%;
+    }
+    .channel-title{
+        font-size: 150%;
+    }
+
+    .channel-description{
+        font-size: 100%;
+    }
+
+    .channel-info{
+        margin-top: 10%;
+        font-size: 120%;
+    }
+    .channel-img img{
+        width: 40%;
+    }
 }

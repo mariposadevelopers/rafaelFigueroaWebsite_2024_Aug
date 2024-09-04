@@ -352,7 +352,7 @@ footer h4 {
 
 @media (min-width: 900px) {
     .navbar-brand {
-        font-size: 200%;
+        font-size: 100%;
         margin-left: 3%;
         margin-right: 3%;
        
@@ -453,7 +453,7 @@ footer h4 {
 @media (min-width:1400px){
 
     .navbar-brand {
-        font-size: 200%;
+        font-size: 100%;
         margin-left: 3%;
         margin-right: 3%;
        

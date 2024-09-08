@@ -1,0 +1,296 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+/*
+    fonts
+*/
+
+@font-face {
+    font-family: 'ClashDisplay-Bold';
+    src: url('/fonts/clash-display/ClashDisplay-Bold.otf') format('truetype'); /* O el formato de tu archivo */
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ClashDisplay-Extralight';
+    src: url('/fonts/clash-display/ClashDisplay-Extralight.otf') format('truetype'); /* O el formato de tu archivo */
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ClashDisplay-Light';
+    src: url('/fonts/clash-display/ClashDisplay-Light.otf') format('truetype'); /* O el formato de tu archivo */
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ClashDisplay-Medium';
+    src: url('/fonts/clash-display/ClashDisplay-Medium.otf') format('truetype'); /* O el formato de tu archivo */
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ClashDisplay-Regular';
+    src: url('/fonts/clash-display/ClashDisplay-Regular.otf') format('truetype'); /* O el formato de tu archivo */
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ClashDisplay-Semibold';
+    src: url('/fonts/clash-display/ClashDisplay-Semibold.otf') format('truetype'); /* O el formato de tu archivo */
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*
+    header
+*/
+.container-fluid{
+   
+    background-color: black;
+
+}
+
+header{
+
+    background-color: black;
+
+}
+.navbar-brand h1{
+    color: white;   
+    font-family: 'ClashDisplay-Bold';
+    font-size: 100%;
+    margin-top: 1vh;
+}
+.nav-link{
+    color: white;
+    font-family: 'ClashDisplay-Bold';
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+
+}
+
+/*
+  Main content of the page
+*/
+body{
+    background-color: black;
+}
+.publications{
+    background-color: white;
+    text-align: center;
+    
+}
+
+.publications h1{
+    font-family: 'ClashDisplay-Bold';
+    padding-top: 5%;
+    padding-bottom: 3%;
+    font-size: 2.5em;
+}
+
+.description{
+    width: 100%;
+}
+.publications p{
+    font-family: 'ClashDisplay-Regular';
+    font-size: 0.8em;
+    padding-bottom: 5%;
+}
+
+/*
+    Publication's container
+*/
+
+.pub-container{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    color: white;
+    text-align: center;
+    width: 90%;
+   
+}
+
+.pub-container h2{
+    margin-left: 10%;
+    font-family: 'ClashDisplay-Semibold';
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.pub-container p{
+    font-family: 'ClashDisplay-Regular';
+    font-size: 0.8em;
+    margin-left: 10%;
+}
+
+.btn-scholar{
+    text-decoration: none;
+    display: flex;
+    width: 270px;
+    height: 40px;
+    margin-left: 15%;
+    margin-top: 10%;
+    color: white;
+    background-color: black;
+    border-radius: 40px;
+    border: 2px solid white;
+}
+.btn-scholar h6{
+    font-family: 'ClashDisplay-Semibold';
+    margin-top: 3%;
+    padding-left: 3%;
+}
+.btn-scholar img{
+    width: 30px;
+    height: 30px;
+    margin-left: 5%;
+    margin-top: 0.5%;
+    filter: invert(99%) sepia(98%) saturate(0%) hue-rotate(97deg) brightness(113%) contrast(100%);
+}
+
+/*
+    Styling the footer
+*/
+hr{
+    color: white;
+}
+footer {
+    background-color: black;
+    height: 25vh;
+    width: 100%;
+    display: grid;
+
+}
+
+.developer-info {
+    padding: 10%;
+}
+
+footer h4 {
+    color: white;
+    font-family: 'ClashDisplay-Semibold';
+    font-size: 110%;
+
+}
+
+@media(min-width: 400px) and (max-width: 440px){
+    .btn-scholar{
+        margin-left: 20%;
+    }
+}
+
+@media(min-width: 441px) and (max-width: 510px){
+    .btn-scholar{
+        margin-left: 25%;
+    }
+}
+
+@media(min-width: 511px) and (max-width: 599px){
+    .btn-scholar{
+        margin-left: 30%;
+    }
+}
+
+@media(min-width: 600px) and (max-width: 767px){
+    .btn-scholar{
+        margin-left: 35%;
+    }
+}
+
+@media(min-width: 768px){
+    .btn-scholar{
+        margin-left: 37%;
+    }
+}
+
+@media(min-width: 900px){
+    .btn-scholar{
+        margin-left: 40%;
+    }
+}
+
+@media(min-width: 1050px){
+    .btn-scholar{
+        margin-left: 42%;
+    }
+}
+
+@media(min-width: 1280px){
+    
+    .publications h1{
+        font-family: 'ClashDisplay-Bold';
+        padding-top: 5%;
+        padding-bottom: 3%;
+        font-size: 4em;
+    }
+    
+    .description{
+        width: 100%;
+    }
+    .publications p{
+        font-family: 'ClashDisplay-Regular';
+        font-size: 2em;
+        padding-bottom: 5%;
+    }
+
+    /*
+    Publication's container
+*/
+
+.pub-container{
+    display: flex;
+    text-align: left;
+    width: 100%;
+}
+.pub-container h2{
+    margin-left: 10%;
+    font-family: 'ClashDisplay-Semibold';
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 3em;
+}
+
+.pub-container p{
+    
+    font-size: 1.5em;
+    margin-left: 10%;
+}
+
+
+.pub-description{
+    width: 60%
+}
+
+.btn-scholar{
+    margin-left: 10%;
+    width: 25%;
+    height: 25%;
+
+}
+.btn-scholar h6{
+    margin-left: 5%;
+}
+}
+
+@media(min-width: 1600px){
+    .btn-scholar{
+        margin-left: 10%;
+        width: 25%;
+        height: 25%;
+    
+    }
+    .btn-scholar h6{
+        margin-left: 5%;
+        font-size: 1.5em;
+    }
+    .btn-scholar img{
+        margin-top: 1%;
+        width: 40px;
+        height: 40px;
+    }
+}

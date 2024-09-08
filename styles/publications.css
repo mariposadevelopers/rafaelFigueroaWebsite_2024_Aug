@@ -111,10 +111,12 @@ body{
     padding-bottom: 10%;
     color: white;
     text-align: center;
+    width: 90%;
+   
 }
 
 .pub-container h2{
-    
+    margin-left: 10%;
     font-family: 'ClashDisplay-Semibold';
     padding-top: 3%;
     padding-bottom: 3%;
@@ -123,13 +125,16 @@ body{
 .pub-container p{
     font-family: 'ClashDisplay-Regular';
     font-size: 0.8em;
+    margin-left: 10%;
 }
 
 .btn-scholar{
+    text-decoration: none;
     display: flex;
     width: 270px;
     height: 40px;
     margin-left: 15%;
+    margin-top: 10%;
     color: white;
     background-color: black;
     border-radius: 40px;
@@ -171,4 +176,121 @@ footer h4 {
     font-family: 'ClashDisplay-Semibold';
     font-size: 110%;
 
+}
+
+@media(min-width: 400px) and (max-width: 440px){
+    .btn-scholar{
+        margin-left: 20%;
+    }
+}
+
+@media(min-width: 441px) and (max-width: 510px){
+    .btn-scholar{
+        margin-left: 25%;
+    }
+}
+
+@media(min-width: 511px) and (max-width: 599px){
+    .btn-scholar{
+        margin-left: 30%;
+    }
+}
+
+@media(min-width: 600px) and (max-width: 767px){
+    .btn-scholar{
+        margin-left: 35%;
+    }
+}
+
+@media(min-width: 768px){
+    .btn-scholar{
+        margin-left: 37%;
+    }
+}
+
+@media(min-width: 900px){
+    .btn-scholar{
+        margin-left: 40%;
+    }
+}
+
+@media(min-width: 1050px){
+    .btn-scholar{
+        margin-left: 42%;
+    }
+}
+
+@media(min-width: 1280px){
+    
+    .publications h1{
+        font-family: 'ClashDisplay-Bold';
+        padding-top: 5%;
+        padding-bottom: 3%;
+        font-size: 4em;
+    }
+    
+    .description{
+        width: 100%;
+    }
+    .publications p{
+        font-family: 'ClashDisplay-Regular';
+        font-size: 2em;
+        padding-bottom: 5%;
+    }
+
+    /*
+    Publication's container
+*/
+
+.pub-container{
+    display: flex;
+    text-align: left;
+    width: 100%;
+}
+.pub-container h2{
+    margin-left: 10%;
+    font-family: 'ClashDisplay-Semibold';
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 3em;
+}
+
+.pub-container p{
+    
+    font-size: 1.5em;
+    margin-left: 10%;
+}
+
+
+.pub-description{
+    width: 60%
+}
+
+.btn-scholar{
+    margin-left: 10%;
+    width: 25%;
+    height: 25%;
+
+}
+.btn-scholar h6{
+    margin-left: 5%;
+}
+}
+
+@media(min-width: 1600px){
+    .btn-scholar{
+        margin-left: 10%;
+        width: 25%;
+        height: 25%;
+    
+    }
+    .btn-scholar h6{
+        margin-left: 5%;
+        font-size: 1.5em;
+    }
+    .btn-scholar img{
+        margin-top: 1%;
+        width: 40px;
+        height: 40px;
+    }
 }

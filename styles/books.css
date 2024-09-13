@@ -1,4 +1,3 @@
-
 * {
     padding: 0;
     margin: 0;
@@ -43,7 +42,6 @@
     font-weight: normal;
     font-style: normal;
 }
-
 /*
     header
 */
@@ -88,84 +86,67 @@ header {
 .nav-link:hover{
     color: rgba(255, 255, 255, 0.555);  
 }
+
 /*
   Main content of the page
 */
-body{
-    background-color: black;
-}
-.publications{
-    background-color: white;
+
+.books{
     text-align: center;
-    
 }
 
-.publications h1{
+.books h1{
     font-family: 'ClashDisplay-Bold';
     padding-top: 5%;
     padding-bottom: 3%;
-    font-size: 2.5em;
+    font-size: 2em;
 }
 
-.description{
-    width: 100%;
-}
-.publications p{
+.books p{
     font-family: 'ClashDisplay-Regular';
-    font-size: 0.8em;
+    font-size: 0.9em;
     padding-bottom: 5%;
+    width: 90%;
+    margin-left: 5%;
 }
 
-/*
-    Publication's container
-*/
-
-.pub-container{
-    padding-top: 10%;
-    padding-bottom: 10%;
-    color: white;
-    text-align: center;
+.books-list{
     width: 90%;
+    margin-left: 5%;
+}
+.title-link h2{
+    font-family: 'ClashDisplay-Semibold';
    
 }
 
-.pub-container h2{
-    margin-left: 10%;
-    font-family: 'ClashDisplay-Semibold';
-    padding-top: 3%;
-    padding-bottom: 3%;
-}
-
-.pub-container p{
-    font-family: 'ClashDisplay-Regular';
-    font-size: 0.8em;
-    margin-left: 10%;
-}
-
-.btn-scholar{
+.btn-link{
     text-decoration: none;
     display: flex;
-    width: 270px;
-    height: 40px;
-    margin-left: 15%;
-    margin-top: 10%;
+    width: 170px;
+    height: 20%;
+    background: black;
     color: white;
-    background-color: black;
     border-radius: 40px;
-    border: 2px solid white;
-}
-.btn-scholar h6{
     font-family: 'ClashDisplay-Semibold';
-    margin-top: 3%;
-    padding-left: 3%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
-.btn-scholar img{
-    width: 30px;
-    height: 30px;
-    margin-left: 5%;
-    margin-top: 0.5%;
-    filter: invert(99%) sepia(98%) saturate(0%) hue-rotate(97deg) brightness(113%) contrast(100%);
+
+.book-description p{
+    font-family: 'ClashDisplay-Regular';
 }
+
+.book-description img{
+    margin-left: 15%;
+}
+.btn-link h6{
+    margin-left: 6%;
+    margin-top: 5%;
+    font-size: 105%;
+}
+
+
+
 
 /*
     Styling the footer
@@ -192,50 +173,51 @@ footer h4 {
 
 }
 
-@media(min-width: 400px) and (max-width: 440px){
-    .btn-scholar{
-        margin-left: 20%;
-    }
-}
+/*
+    Media Queries
+*/
 
-@media(min-width: 441px) and (max-width: 510px){
-    .btn-scholar{
-        margin-left: 25%;
+@media (min-width: 768px){
+    .books p{
+        
+        font-size: 1em;
+       
     }
-}
-
-@media(min-width: 511px) and (max-width: 599px){
-    .btn-scholar{
+    .book-description img{
         margin-left: 30%;
     }
 }
 
-@media(min-width: 600px) and (max-width: 767px){
-    .btn-scholar{
-        margin-left: 35%;
+@media (min-width: 920px){
+    .books h1{
+        
+        font-size: 3em;
     }
+
+    .books p{
+        font-size: 1.5em;
+    }
+    .title-link h2{
+        font-size: 2.5em;
+    }
+    .btn-link{
+        width: 250px;
+        height: 25%;
+        background: black;
+        color: white;
+        font-size: 1.5em;
+    }
+      
+    .book-description p{
+        font-size: 1.5em;
+        
+    }
+
 }
 
-@media(min-width: 768px){
-    .btn-scholar{
-        margin-left: 37%;
-    }
-}
+@media (min-width: 1280px){
 
-@media(min-width: 900px){
-    .btn-scholar{
-        margin-left: 40%;
-    }
-}
 
-@media(min-width: 1050px){
-    .btn-scholar{
-        margin-left: 42%;
-    }
-}
-
-@media(min-width: 1280px){
-    
     
     .navbar-brand {
         font-size: 100%;
@@ -253,76 +235,48 @@ footer h4 {
         font-family: 'ClashDisplay-Light';
         font-size: 150%;
     }
+   
 
-    .publications h1{
-        font-family: 'ClashDisplay-Bold';
-        padding-top: 5%;
-        padding-bottom: 3%;
+    .books h1{
+        
         font-size: 4em;
     }
-    
-    .description{
-        width: 100%;
-    }
-    .publications p{
-        font-family: 'ClashDisplay-Regular';
+
+    .books p{
         font-size: 2em;
-        padding-bottom: 5%;
     }
 
-    /*
-    Publication's container
-*/
-
-.pub-container{
-    display: flex;
-    text-align: left;
-    width: 100%;
-}
-.pub-container h2{
-    margin-left: 10%;
-    font-family: 'ClashDisplay-Semibold';
-    padding-top: 3%;
-    padding-bottom: 3%;
-    font-size: 3em;
-}
-
-.pub-container p{
-    
-    font-size: 1.5em;
-    margin-left: 10%;
-}
-
-
-.pub-description{
-    width: 60%
-}
-
-.btn-scholar{
-    margin-left: 10%;
-    width: 25%;
-    height: 25%;
-
-}
-.btn-scholar h6{
-    margin-left: 5%;
-}
-}
-
-@media(min-width: 1600px){
-    .btn-scholar{
-        margin-left: 10%;
-        width: 25%;
-        height: 25%;
-    
+    .title-link h2{
+        font-size: 3em;
     }
-    .btn-scholar h6{
-        margin-left: 5%;
-        font-size: 1.5em;
+
+    .btn-link{
+        width: 300px;
+        height: 40%;
+        background: black;
+        color: white;
+        font-size: 1.8em;
     }
-    .btn-scholar img{
-        margin-top: 1%;
-        width: 40px;
-        height: 40px;
+
+    .book-description{
+        width: 100%;
+        display: flex;
+    }
+    .book-description p{
+        font-size: 1.5em;     
+    }
+    .book-description-text{
+        width: 50%;
+    }
+    .book-description-img{
+        width: 50%;
+    }
+
+    .book-img{
+        width: 50%;
+    }
+
+    footer{
+        height: 50vh;
     }
 }

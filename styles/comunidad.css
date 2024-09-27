@@ -144,10 +144,12 @@ header {
 
 .channel-title{
     font-family: 'ClashDisplay-Semibold';
+
 }
 .channel-title h3{
     color: black;
     font-size: 200%;  
+    
 }
 
 .channel-img img{
@@ -303,6 +305,7 @@ footer h4 {
     }
     .channel-title{
         font-size: 150%;
+  
     }
 
     .channel-description{

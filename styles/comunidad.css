@@ -168,7 +168,7 @@ header {
 }
 
 
-.channel-link{
+.channel-link a{
     display: flex;
     background-color: black;
     color: white;
@@ -176,8 +176,15 @@ header {
     padding: 4%;
     align-items: center;
     margin-top: 5%;
+
 }
 
+
+
+.channel-anchor{
+
+    text-decoration: none;
+}
 
 .bi-youtube{
     color: red;

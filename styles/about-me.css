@@ -92,9 +92,9 @@ header {
 
 
 .about-me{
-    width: 90%;
-    margin-left: 5%;
+    width: 100%;
     height: fit-content;
+    background: radial-gradient(circle at 50% 50%, rgba(44, 53, 62, 1) 0%, rgba(0, 0, 0, 1) 100%);
 }
 
 .about-me h1{
@@ -106,17 +106,19 @@ header {
     padding-top: 10%;
     padding-bottom: 5%;
     font-size: 2.5em;
+    color: white;
 }
 
 .about-me img{
-    padding-top: 1%;
+    padding-top: 5%;
     padding-bottom: 5%;
     width: 50%;
-    border-radius: 80px;
     margin-left: 25%;
 
 }
 .about-me p{
+    width: 90%;
+    margin-left: 5%;
     padding-top: 5%;
     font-family: 'ClashDisplay-Regular';
     src: url('/fonts/clash-display/ClashDisplay-Regular.otf') format('truetype'); /* O el formato de tu archivo */
@@ -124,6 +126,8 @@ header {
     font-style: normal;
     font-size: 1em;
     text-align: center;
+    color: white;
+    padding-bottom: 5%;
 }
 
 .interest{
@@ -248,23 +252,7 @@ footer h4 {
    
 }
 @media(min-width: 992px){
-    .navbar-brand {
-        font-size: 200%;
-        margin-left: 3%;
-        margin-right: 3%;
-       
-    }
-
-    .navbar-brand h1{
-        font-family: 'ClashDisplay-Semibold';
-    }
-
-
-    .nav-link {
-        font-family: 'ClashDisplay-Light';
-        font-size: 150%;
-    }
-
+    
     .about-me{
         width: 100%;
         margin-left: 0;
@@ -345,17 +333,25 @@ footer h4 {
     }
 
     .item-about{
-        width: 90%;
+        width: 100%;
+        margin-left: 0;
+        display: flex;
+        
+    }
+
+    .item-about-img{
+        width: 50%;
         
     }
     .item-about img{
-        width: 25%;
-        margin-left: 43%;
-    
+        width: 100%;
+        
+        height: fit-content;
+        
     }
     .item-about p{
-        
-        margin-left: 10%;
+        width: 50%;
+        margin-left: 0%;
         font-size: 2.5em;
     
     }

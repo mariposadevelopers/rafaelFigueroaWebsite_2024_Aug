@@ -58,10 +58,11 @@
 
 .navbar-brand h1 {
     color: white;
-    font-size: 60%;
     font-family: 'ClashDisplay-Bold';
+    font-size: 100%;
     margin-top: 1vh;
 }
+
 
 
 .nav-link {
@@ -118,7 +119,10 @@ header {
    
 }
 
+.description{
 
+    text-align: left;
+}
 
 .cta-get-book{
     display: flex;
@@ -138,6 +142,7 @@ header {
 
 .book-description p{
     font-family: 'ClashDisplay-Regular';
+    text-align: left;
 }
 
 .book-description-img{
@@ -145,7 +150,10 @@ header {
     justify-content: center;
   
 }
+.btn-link{
 
+    text-decoration: none;
+}
 .btn-link h6{
     margin-bottom: 0;
     padding: 5%;
@@ -216,13 +224,17 @@ footer h4 {
         font-size: 1.5em;
         
     }
+    .img-wrapper{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
 
 }
 
 @media (min-width: 1280px){
 
 
-    
     .navbar-brand {
         font-size: 100%;
         margin-left: 3%;
@@ -232,8 +244,8 @@ footer h4 {
 
     .navbar-brand h1{
         font-family: 'ClashDisplay-Semibold';
+        font-size: 150%;
     }
-
 
     .nav-link {
         font-family: 'ClashDisplay-Light';

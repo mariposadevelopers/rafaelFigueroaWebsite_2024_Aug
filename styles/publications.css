@@ -60,7 +60,6 @@
 
 .navbar-brand h1 {
     color: white;
-
     font-family: 'ClashDisplay-Bold';
     font-size: 100%;
     margin-top: 1vh;
@@ -166,6 +165,7 @@ body{
     margin-top: 0.5%;
     filter: invert(99%) sepia(98%) saturate(0%) hue-rotate(97deg) brightness(113%) contrast(100%);
 }
+
 
 /*
     Styling the footer

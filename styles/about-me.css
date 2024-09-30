@@ -59,7 +59,6 @@ body{
 
 .navbar-brand h1 {
     color: white;
-
     font-family: 'ClashDisplay-Bold';
     font-size: 100%;
     margin-top: 1vh;
@@ -305,7 +304,6 @@ footer h4 {
 @media(min-width: 1200px){
 
     .navbar-brand {
-        font-size: 150%;
         margin-left: 3%;
         margin-right: 3%;
        
@@ -313,6 +311,7 @@ footer h4 {
 
     .navbar-brand h1{
         font-family: 'ClashDisplay-Semibold';
+        font-size: 150%;
     }
 
 

@@ -72,12 +72,10 @@
 
 .navbar-brand h1 {
     color: white;
-
     font-family: 'ClashDisplay-Bold';
     font-size: 100%;
     margin-top: 1vh;
 }
-
 
 .nav-link {
     color: white;
@@ -123,7 +121,9 @@ header {
     font-family: 'ClashDisplay-Regular';
     color: black;
     font-size: 150%;
-
+    text-align: left;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 
@@ -149,7 +149,8 @@ header {
 .channel-title h3{
     color: black;
     font-size: 200%;  
-    
+    text-align: left;
+    padding-left: 10%;
 }
 
 .channel-img img{
@@ -238,17 +239,15 @@ footer h4 {
     */
 
     .navbar-brand {
-        font-size: 100%;
         margin-left: 3%;
         margin-right: 3%;
-  
+       
     }
 
     .navbar-brand h1{
         font-family: 'ClashDisplay-Semibold';
         font-size: 150%;
     }
-
 
     .nav-link {
         font-family: 'ClashDisplay-Light';

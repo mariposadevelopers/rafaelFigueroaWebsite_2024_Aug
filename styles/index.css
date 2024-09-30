@@ -72,7 +72,6 @@
 
 .navbar-brand h1 {
     color: white;
-
     font-family: 'ClashDisplay-Bold';
     font-size: 100%;
     margin-top: 1vh;
@@ -112,7 +111,7 @@ header {
 
 .banner-information h2 {
     font-family: 'ClashDisplay-Bold';
-    font-size: 250%;
+    font-size: 200%;
     padding: 5%;
     color: white;
 
@@ -156,7 +155,7 @@ header {
     font-family: 'ClashDisplay-Regular';
     color: black;
     font-size: 125%;
-    text-align: center;
+    text-align: left;
 }
 
 .info-img img {
@@ -406,7 +405,7 @@ footer h4 {
 
     .info-text p {
         font-size: 150%;
-        text-align: left;
+
     }
 
 

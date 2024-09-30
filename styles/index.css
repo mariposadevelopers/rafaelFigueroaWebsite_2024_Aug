@@ -195,18 +195,27 @@ header {
     font-size: 200%;
 }
 
-.experience-list {
-    display: flex;
-    text-align: center;
-    padding: 10%;
-    display: grid;
+
+.experience-element{
+
+    margin-top: 5%;
 }
 
-.experience-list ul {
-    font-family: 'ClashDisplay-Regular';
-    font-size: 125%;
+.experience-job h3{
+    font-family: 'ClashDisplay-Semibold';
+    font-size: 150%;
     color: black;
-    text-align: center;
+}
+
+.experience-company{
+   
+    font-family: 'ClashDisplay-Regular';
+
+}
+
+.experience-period{
+    font-family: 'ClashDisplay-Regular';
+
 }
 
 /*
@@ -411,9 +420,6 @@ footer h4 {
         font-size: 325%;
     }
 
-    .experience-list ul li {
-        font-size: 150%;
-    }
 
 
     /*
@@ -505,17 +511,7 @@ footer h4 {
         margin-top: 0;
     }
 
-    .experience{
-        margin-top: 5%;
-    }
-
-    .experience-list{
-        padding: 3%;
-    }
-
-    .experience-list ul{
-        list-style: none;
-    }
+  
     .publications{
         margin-top: 5%;
         

@@ -105,7 +105,7 @@ header {
 .banner-information {
     width: 100%;
     height: 50vh;
-    background: radial-gradient(circle at 50% 50%, rgba(44, 53, 62, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    background: radial-gradient(circle at 50% 50%, rgb(25, 26, 26) 0%, rgba(0, 0, 0, 1) 100%);
     display: flex;
     align-items: center;
 }
@@ -362,6 +362,7 @@ footer h4 {
 
     .navbar-brand h1{
         font-family: 'ClashDisplay-Semibold';
+        font-size: 150%;
     }
 
 

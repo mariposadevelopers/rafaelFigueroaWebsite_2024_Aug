@@ -119,18 +119,23 @@ header {
    
 }
 
-.btn-link{
-    text-decoration: none;
+
+
+.cta-get-book{
     display: flex;
-    width: 170px;
-    height: 20%;
-    background: black;
-    color: white;
-    border-radius: 40px;
+    text-decoration: none;
     font-family: 'ClashDisplay-Semibold';
+    background: black;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    border-radius: 40px;
     margin-top: 5%;
     margin-bottom: 5%;
+    font-size: 140%;
 }
+
+
 
 .book-description p{
     font-family: 'ClashDisplay-Regular';
@@ -140,13 +145,10 @@ header {
     margin-left: 15%;
 }
 .btn-link h6{
-    margin-left: 6%;
-    margin-top: 5%;
-    font-size: 105%;
+    margin-bottom: 0;
+    padding: 5%;
+    font-size: 100%;
 }
-
-
-
 
 /*
     Styling the footer
@@ -200,12 +202,14 @@ footer h4 {
     .title-link h2{
         font-size: 2.5em;
     }
-    .btn-link{
+    .cta-get-book{
         width: 250px;
-        height: 25%;
         background: black;
         color: white;
-        font-size: 1.5em;
+        align-items: center;
+    }
+    .cta-get-book h6{
+        text-decoration: none;
     }
       
     .book-description p{
@@ -250,12 +254,11 @@ footer h4 {
         font-size: 3em;
     }
 
-    .btn-link{
-        width: 300px;
-        height: 40%;
+    .cta-get-book{
+        width: 35%;
         background: black;
         color: white;
-        font-size: 1.8em;
+        text-decoration: none;
     }
 
     .book-description{

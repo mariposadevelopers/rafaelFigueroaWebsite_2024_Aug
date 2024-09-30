@@ -397,6 +397,7 @@ footer h4 {
 
     .info-text p {
         font-size: 150%;
+        text-align: left;
     }
 
 
@@ -430,6 +431,7 @@ footer h4 {
     .publication-element{
       
         font-size: 150%;
+        text-align: left;
     }
 
 

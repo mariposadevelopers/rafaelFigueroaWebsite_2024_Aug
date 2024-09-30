@@ -58,9 +58,8 @@
 
 .navbar-brand h1 {
     color: white;
-    font-size: 150%;
+    font-size: 60%;
     font-family: 'ClashDisplay-Bold';
-  
     margin-top: 1vh;
 }
 
@@ -141,9 +140,12 @@ header {
     font-family: 'ClashDisplay-Regular';
 }
 
-.book-description img{
-    margin-left: 15%;
+.book-description-img{
+    display: flex;
+    justify-content: center;
+  
 }
+
 .btn-link h6{
     margin-bottom: 0;
     padding: 5%;
@@ -185,9 +187,7 @@ footer h4 {
         font-size: 1em;
        
     }
-    .book-description img{
-        margin-left: 30%;
-    }
+
 }
 
 @media (min-width: 920px){

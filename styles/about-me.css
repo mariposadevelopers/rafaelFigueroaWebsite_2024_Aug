@@ -93,7 +93,7 @@ header {
 .about-me{
     width: 100%;
     height: fit-content;
-    background: radial-gradient(circle at 50% 50%, rgba(44, 53, 62, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    background: radial-gradient(circle at 50% 50%, rgb(25, 26, 26) 0%, rgba(0, 0, 0, 1) 100%);
 }
 
 .about-me h1{
@@ -124,10 +124,11 @@ header {
     font-weight: normal;
     font-style: normal;
     font-size: 1em;
-    text-align: center;
+    text-align: justify;
     color: white;
     padding-bottom: 5%;
 }
+
 
 .interest{
     width: 90%;
@@ -146,16 +147,17 @@ header {
     font-size: 2.5em; 
 }
 
+
+
 .interest p{
     font-family: 'ClashDisplay-Regular';
     src: url('/fonts/clash-display/ClashDisplay-Regular.otf') format('truetype'); /* O el formato de tu archivo */
     font-weight: normal;
     font-style: normal;
     font-size: 1em;
-    text-align: center;
+    text-align: justify;
     
 }
-
 ul li{
     font-family: 'ClashDisplay-Regular';
     src: url('/fonts/clash-display/ClashDisplay-Regular.otf') format('truetype'); /* O el formato de tu archivo */
@@ -180,8 +182,66 @@ h2{
 }
 .item{
     padding-bottom: 5%;
+    padding-top: 5%;
+    
 }
 
+#hobbie-text{
+    padding-bottom: 5%;
+    padding-top: 5%;
+    padding-left: 4%;
+}
+
+
+
+/*
+    Accordion style
+*/
+.accordion-container {
+    width: 100%;
+    padding-left: 5%;
+  }
+
+.accordion {
+    cursor: pointer;
+    padding: 10px;
+    width: 90%;
+    
+    text-align: left;
+    background-color: black;
+    color: white;
+    font-family: 'ClashDisplay-Semibold';
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.4s ease;
+  }
+  
+  .accordion.active, .accordion:hover {
+    background-color: #ccc;
+  }
+  
+  .accordion i {
+    transition: transform 0.4s;
+  }
+  
+  .accordion.active i {
+    transform: rotate(180deg); 
+  }
+  
+  .panel {
+    max-height: 0;
+    overflow: hidden;
+    background-color: whitesmoke;
+    transition: max-height 0.6s ease-out; /* Transición suave */
+    background-color: white;
+  }
+  
+  .panel ul {
+    padding: 10px;
+  }
 
 .item-left{
     width: 50%;
@@ -190,6 +250,7 @@ h2{
 .item-left p{
     padding-top: 25%;
     padding-right: 5%;
+    
 }
 
 
@@ -337,19 +398,29 @@ footer h4 {
         display: flex;
         
     }
-
+    .item-about-text{
+        width: 50%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
     .item-about-img{
+       
         width: 50%;
-        
+    
     }
+
     .item-about img{
-        width: 100%;
-        
-        height: fit-content;
-        
+        max-width: 50%;
+        width:50%;
+        margin-left: 20%;
+        ;
     }
+        
+    
+    
+
     .item-about p{
-        width: 50%;
+        
         margin-left: 0%;
         font-size: 2.5em;
     
@@ -375,31 +446,15 @@ footer h4 {
 
 @media(min-width: 1366px){
    
-    .about-me img{
-        padding-bottom: 0;
-    }
+    
 
     .about-me h1{
         padding-bottom: 0;
         font-size: 4em;
     }
 
-    .item-about{
-        padding-top: 0;
-        width: 90%;
-        
-    }
-    .item-about img{
-        width: 20%;
-        margin-left: 45%;
     
-    }
-    .item-about p{
-        
-        margin-left: 10%;
-        font-size: 2em;
-    
-    }
+   
 
     .interest h1{
   
